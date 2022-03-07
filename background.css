@@ -1,0 +1,22 @@
+body {
+    background-size: cover;
+    background-position: bottom center;
+  }
+  /* home */
+  .home {
+      background-image: 
+    
+  }
+  
+  @media (min-width: 37rem) {
+    .home {
+      background-position: center center;
+      background-image: url(./assets/background/background-tablet.svg);
+    }
+  }
+  
+  @media (min-width: 45rem) {
+    .home {
+      background-image: url(./assets/background/background-desktop.svg);
+    }
+  } 
